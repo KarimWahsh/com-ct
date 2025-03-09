@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commercial Center for Tires</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Commercial Center for Tires</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#brands">Brands</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to Commercial Center for Tires</h2>
+        <p>Your trusted partner in high-quality tires and auto parts.</p>
+    </section>
+    
+    <section id="products">
+        <h2>Our Products</h2>
+        <p>We offer a variety of tires and spare parts for all car brands.</p>
+    </section>
+    
+    <section id="brands">
+        <h2>Our Brands</h2>
+        <p>We work with top brands like RTS (Spain), Facet (Italy), TYC (Taiwan), KYB (Spain), and more.</p>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>With over 40 years of experience, we provide top-quality automotive products and excellent service.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Commercial Center for Tires. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
